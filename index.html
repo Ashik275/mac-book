@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Shoping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="d-flex container mt-5 ">
+            <div>
+                <img class="img-fluid mac-img pe-5" src="images/mac.png" alt="">
+            </div>
+            <div class=" container ">
+                <div>
+                    <h1>Customize Your Blue 24-inch i-Mac with Apple M1 chip</h1>
+                    <p class="pt-3">Apple today announced M1, the most powerful chip it has ever created and the
+                        first chip designed
+                        specifically for the Mac. M1 is optimized for Mac systems in which small size and power
+                        efficiency
+                        are critically important. As a system on a chip (SoC), M1 combines numerous powerful
+                        technologies
+                        into a single chip, and features a unified memory architecture for dramatically improved
+                        performance
+                        and efficiency. </p>
+                </div>
+
+                <div>
+                    <h3>Memory</h3>
+                    <button id="add-8GBmemory" type="button" class="btn btn-outline-dark  memory-btn">8GB Unified Memory
+                    </button>
+                    <button id="add-16GBmemory" type="button" class="btn btn-outline-dark memory-btn">16GB Unified
+                        Memory</button>
+                </div>
+                <div class="mt-5">
+                    <h3>Storage</h3>
+                    <button id="storage-btn1" type="button" class="btn btn-outline-dark me-3 memory-btn">256GB SSD
+                        Storage </button>
+                    <button id="storage-btn2" type="button" class="btn btn-outline-dark me-3  memory-btn">512GB SSD
+                        Storage </button>
+                    <button id="storage-btn3" type="button" class="btn btn-outline-dark memory-btn">1TB SSD Storage
+                    </button>
+                </div>
+                <div class="mt-5">
+                    <h3>Choose Your Delivery Option</h3>
+                    <button id="delivery-btn1" type="button" class="btn btn-outline-dark me-3 memory-btn">Friday 25
+                        August, Free Prime
+                        Delivery </button>
+                    <button id="delivery-btn2" type="button" class="btn btn-outline-dark me-3  ">Friday 21 August,
+                        Delivery
+                        Charge $20 </button>
+
+                </div>
+                <table class="table mt-5">
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Best Price</th>
+                            <th scope="row">$1299</th>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Extra Memory Cost</th>
+                            <th scope="row">$ <span id="memory-cost">0</span> </th>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Extra Storage Cost</th>
+                            <th scope="row">$<span id="storage-cost">0</span></th>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Delivery Charge</th>
+                            <th scope="row">$<span id="delivery-cost">0</span></th>
+
+                        </tr>
+                        <hr>
+                        <tr>
+                            <th scope="row">Total Price</th>
+                            <th scope="row">$ <span id="total-price">1299</span> </th>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div>
+                    <p class="fs-6 fw-bold">Add Promocode</p>
+                    <form class="d-flex">
+                        <input class="me-2 rounded " type="search" aria-label="Search">
+                        <button class="btn btn-danger" type="submit">Apply</button>
+                    </form>
+                </div>
+                <hr class="my-3">
+                <h1 class="my-5 text-center">Total $<span id="total-price">1299</span></h1>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="js/mac.js"></script>
+</body>
+
+</html>
